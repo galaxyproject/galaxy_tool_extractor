@@ -17,6 +17,12 @@ subdomain: genome
 root_domain: usegalaxy.org.au
 feedback_email: help@genome.edu.au
 
+support_url: https://site.usegalaxy.org.au/request
+terms_url: https://site.usegalaxy.org.au/about#terms-of-service
+data_policy_url: https://site.usegalaxy.org.au/about#data-privacy
+quota_request_url: https://site.usegalaxy.org.au/request/quota
+tool_request_url: https://site.usegalaxy.org.au/request/tool
+
 # Custom content relative to this file URL
 conclusion_md: usegalaxy.org.au/templates/conclusion.html
 footer_md: usegalaxy.org.au/templates/footer.html

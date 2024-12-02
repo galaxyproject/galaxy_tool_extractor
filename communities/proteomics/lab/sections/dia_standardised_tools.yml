@@ -20,12 +20,12 @@ tabs:
   - id: help
     title: Help
     content:
-      - title_md: "Galaxy Australia support"
+      - title_md: "Galaxy {{ site_name }} support"
         description_md: >
           <p>
-            Any user of Galaxy Australia can request support through an online form.
+            Any user of Galaxy {{ site_name }} can request support through an online form.
           </p>
-        button_link: "/request/support"
+        button_link: "{{ support_url }}"
         button_md: "Request support"
       - title_md: "DIA Analysis using OpenSwathWorkflow"
         description_md: >

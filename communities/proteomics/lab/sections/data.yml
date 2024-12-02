@@ -16,28 +16,33 @@ tabs:
           <p>
             No, do not upload personal or sensitive, such as human health or clinical data.
             Please see our
-            <a href="/about#data-privacy">Data Privacy</a>
+            <a href="{{ data_policy_url }}">Data Privacy</a>
             page for definitions of sensitive and health-related information.
           </p>
           <p>
             Please also make sure you have read our
-            <a href="/about#terms-of-service">Terms of Service</a>,
+            <a href="{{ terms_url }}">Terms of Service</a>,
             which covers hosting and analysis of research data.
           </p>
+        exclude_from:
+          - usegalaxy.eu
+          - usegalaxy.org
       - title_md: "Is my data private?"
         description_md: |
           <p>
             Please read our
-            <a href="/about#data-privacy">Privacy Policy</a>
+            <a href="{{ data_policy_url }}">Privacy Policy</a>
             for information on your personal data and any data that you upload.
           </p>
       - title_md: "How can I increase my storage quota?"
         description_md: |
           <p>
-            Please submit a quota request if your Galaxy Australia account reaches its data storage limit. Requests are usually provisioned quickly if you provide a reasonable use case for your request.
+            Please submit a quota request if your Galaxy {{ site_name }} account reaches its data storage limit. Requests are usually provisioned quickly if you provide a reasonable use case for your request.
           </p>
-        button_link: "/request/quota"
+        button_link: "{{ quota_request_url }}"
         button_md: "Request"
+        exclude_from:
+          - usegalaxy.org
       - title_md: "Tutorial: Introduction to proteomics, protein identification, quantification and statistical modelling"
         description_md: |
           <p>
@@ -45,11 +50,11 @@ tabs:
           </p>
         button_link: "https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/introduction/slides.html#1"
         button_md: "Tutorial"
-      - title_md: "Galaxy Australia support"
+      - title_md: "Galaxy {{ site_name }} support"
         description_md: |
           <p>
-            Any user of Galaxy Australia can request support through an
+            Any user of Galaxy {{ site_name }} can request support through an
             online form.
           </p>
-        button_link: "/request/support"
+        button_link: "{{ support_url }}"
         button_md: "Request support"

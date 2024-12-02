@@ -13,6 +13,13 @@ nationality: ""
 galaxy_base_url: https://genome.usegalaxy.org  # Use for rendering tool/workflow URLs. Trailing '/' will be removed.
 subdomain: genome
 root_domain: usegalaxy.org
+
+support_url: https://help.usegalaxy.org
+terms_url: https://usegalaxy.org/static/terms.html
+data_policy_url: https://usegalaxy.org/static/terms.html
+# tool_request_url:
+# quota_request_url:
+
 # feedback_email: help@mygalaxy.org  # set to enable feedback form
 
 # Custom content relative to this file URL

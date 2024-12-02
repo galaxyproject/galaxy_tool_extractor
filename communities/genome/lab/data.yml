@@ -27,26 +27,35 @@ tabs:
           </p>
         button_md: More info
         button_link: https://australianbiocommons.github.io/how-to-guides/genome_assembly/hifi_assembly#in-depth-workflow-guide
+        exclude_from:
+        - usegalaxy.eu
+        - usegalaxy.org
       - title_md: Can I upload sensitive data?
         description_md: >
           <p>
-            No, do not upload personal or sensitive, such as human health or clinical data. Please see our <a href="/about#data-privacy">Data Privacy</a> page for definitions of sensitive and health-related information.
+            No, do not upload personal or sensitive, such as human health or clinical data.
+            Please see our <a href="{{ data_policy_url }}">Data Privacy</a> page for definitions of sensitive and health-related information.
           </p>
           <p>
-            Please also make sure you have read our <a href="/about#terms-of-service">Terms of Service</a>, which covers hosting and analysis of research data.
+            Please also make sure you have read our <a href="{{ terms_url }}">Terms of Service</a>, which covers hosting and analysis of research data.
           </p>
+        exclude_from:
+        - usegalaxy.eu
+        - usegalaxy.org
       - title_md: Is my data private?
         description_md: >
           <p>
-            Please read our <a href="/about#data-privacy">Privacy Policy</a> for information on your personal data and any data that you upload.
+            Please read our <a href="{{ data_policy_url }}">Data Policy</a> for information on your personal data and any data that you upload.
           </p>
       - title_md: How can I increase my storage quota?
         description_md: >
           <p>
-            Please submit a quota request if your Galaxy Australia account reaches its data storage limit. Requests are usually provisioned quickly if you provide a reasonable use case for your request.
+            Please submit a quota request if your Galaxy {{ site_name }} account reaches its data storage limit. Requests are usually provisioned quickly if you provide a reasonable use case for your request.
           </p>
         button_md: Request
-        button_link: /request/quota
+        button_link: "{{ quote_request_url }}"
+        exclude_from:
+        - usegalaxy.org
       - title_md: "Tutorial: Quality Control"
         description_md: >
           <p>
@@ -61,13 +70,13 @@ tabs:
           </p>
         button_md: Tutorial
         button_link: https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html
-      - title_md: Galaxy Australia support
+      - title_md: Galaxy support
         description_md: >
           <p>
-            Any user of Galaxy Australia can request support through an online form.
+            Any user of Galaxy {{ site_name }} can request support online.
           </p>
         button_md: Request support
-        button_link: /request/support
+        button_link: "{{ support_url }}"
   - id: tools
     title: Tools
     heading_md: >
@@ -138,27 +147,36 @@ tabs:
       - title_md: Data QC
         description_md: >
           <p>
-            Report statistics from sequencing reads. <br> <br> Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
+            Report statistics from sequencing reads.
+            <br>
+            <br>
+            Tools: <code>nanoplot</code> <code>fastqc</code> <code>multiqc</code>
           </p>
         button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=222"
         view_link: https://workflowhub.eu/workflows/222
         view_tip: View in WorkflowHub
-        button_tip: Import to Galaxy AU
+        button_tip: Import to Galaxy {{ site_name }}
       - title_md: Kmer counting to estimate genome size
         description_md: >
           <p>
-            Estimates genome size and heterozygosity based on counts of kmers. <br> <br> Tools: <code>meryl</code> <code>genomescope</code>
+            Estimates genome size and heterozygosity based on counts of kmers.
+            <br>
+            <br>
+            Tools: <code>meryl</code> <code>genomescope</code>
           </p>
         button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=223"
         view_link: https://workflowhub.eu/workflows/223
         view_tip: View in WorkflowHub
-        button_tip: Import to Galaxy AU
+        button_tip: Import to Galaxy {{ site_name }}
       - title_md: Trim and filter reads
         description_md: >
           <p>
-            Trims and filters raw sequence reads according to specified settings. <br> <br> Tools: <code>fastp</code>
+            Trims and filters raw sequence reads according to specified settings.
+            <br>
+            <br>
+            Tools: <code>fastp</code>
           </p>
         button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=224"
         view_link: https://workflowhub.eu/workflows/224
         view_tip: View in WorkflowHub
-        button_tip: Import to Galaxy AU
+        button_tip: Import to Galaxy {{ site_name }}

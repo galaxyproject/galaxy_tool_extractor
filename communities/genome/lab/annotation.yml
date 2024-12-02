@@ -39,7 +39,7 @@ tabs:
       - title_md: <code>RepeatMasker</code> - screen DNA sequences for interspersed repeats and low complexity regions
         description_md: >
           <p>
-            RepeatMasker is a program that screens DNA for repeated elements such as tandem repeats, transposons, SINEs and LINEs. Galaxy AU has installed the full and curated DFam screening databases, or a custom database can be provided in <code>fasta</code> format. Additional reference data can be downloaded from <a href="https://www.girinst.org/repbase/" target="_blank"> RepBase</a>.
+            RepeatMasker is a program that screens DNA for repeated elements such as tandem repeats, transposons, SINEs and LINEs. Galaxy {{ site_name }} should have the full and curated DFam screening databases, or a custom database can be provided in <code>fasta</code> format. Additional reference data can be downloaded from <a href="https://www.girinst.org/repbase/" target="_blank"> RepBase</a>.
           </p>
         inputs:
           - datatypes:
@@ -110,6 +110,9 @@ tabs:
               - fasta
             label: Repeat-masked (hard) genome assembly
         button_link: "{{ galaxy_base_url }}/tool_runner?tool_id=fgenesh_annotate&version=latest"
+        exclude_from:
+          - usegalaxy.org
+          - usegalaxy.eu
 
   - id: workflows
     title: Workflows
@@ -139,7 +142,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/u/anna/w/genome-annotation-with-maker"
               view_link: ''
               view_tip: ''
-              button_tip: Run in Galaxy AU
+              button_tip: Run in Galaxy {{ site_name}}
             - title_md: Annotation with Funannotate
               description_md: >
                 <p>
@@ -161,7 +164,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/u/anna/w/annotation-funannotate"
               view_link: ''
               view_tip: ''
-              button_tip: Run in Galaxy AU
+              button_tip: Run in Galaxy {{ site_name }}
 
         - id: tsi_transcripts
           title: Transcript alignment
@@ -169,7 +172,10 @@ tabs:
             - title_md: About these workflows
               description_md: >
                 <p>
-                  This <a href="https://australianbiocommons.github.io/how-to-guides/genome_annotation/Transcriptome" target="_blank"> How-to-Guide </a> will describe the steps required to align transcript data to your genome on the Galaxy Australia platform, using multiple workflows. The outputs from these workflows can then be used as inputs into the next annotation workflow using FgenesH++.
+                  This <a href="https://australianbiocommons.github.io/how-to-guides/genome_annotation/Transcriptome" target="_blank"> How-to-Guide </a> will describe the steps required to align transcript data to your genome on Galaxy, using multiple workflows.
+                  {% if site_name == 'Australia' %}
+                  The outputs from these workflows can then be used as inputs into the next annotation workflow using FgenesH++.
+                  {% endif %}
                 </p>
             - title_md: Repeat masking
               description_md: >
@@ -183,7 +189,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=875"
               view_link: https://workflowhub.eu/workflows/875
               view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
+              button_tip: Import to Galaxy {{ site_name }}
 
             - title_md: QC and trimming of RNAseq
               description_md: >
@@ -197,7 +203,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=876"
               view_link: https://workflowhub.eu/workflows/876
               view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
+              button_tip: Import to Galaxy {{ site_name }}
 
             - title_md: Find transcripts
               description_md: >
@@ -213,7 +219,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=877"
               view_link: https://workflowhub.eu/workflows/877
               view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
+              button_tip: Import to Galaxy {{ site_name }}
 
             - title_md: Combine transcripts
               description_md: >
@@ -231,7 +237,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=878"
               view_link: https://workflowhub.eu/workflows/878
               view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
+              button_tip: Import to Galaxy {{ site_name }}
 
             - title_md: Extract transcripts
               description_md: >
@@ -245,7 +251,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=879"
               view_link: https://workflowhub.eu/workflows/879
               view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
+              button_tip: Import to Galaxy {{ site_name }}
 
 
             - title_md: Convert formats
@@ -261,7 +267,7 @@ tabs:
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=880"
               view_link: https://workflowhub.eu/workflows/880
               view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
+              button_tip: Import to Galaxy {{ site_name }}
 
         - id: tsi_annotation
           title: Annotation with FgenesH++
@@ -269,7 +275,7 @@ tabs:
             - title_md: About these workflows
               description_md: >
                 <p>
-                  This <a href="https://australianbiocommons.github.io/how-to-guides/genome_annotation/Fgenesh" target="_blank"> How-to-Guide </a> will describe the steps required to annotate your genome on the Galaxy Australia platform, using multiple workflows.
+                  This <a href="https://australianbiocommons.github.io/how-to-guides/genome_annotation/Fgenesh" target="_blank"> How-to-Guide </a> will describe the steps required to annotate your genome on Galaxy, using multiple workflows.
                 </p>
             - title_md: Annotation with FgenesH++
               description_md: >
@@ -296,7 +302,10 @@ tabs:
               button_link: "{{ galaxy_base_url }}/workflows/trs_import?trs_server=workflowhub.eu&run_form=true&trs_id=881"
               view_link: https://workflowhub.eu/workflows/881
               view_tip: View in WorkflowHub
-              button_tip: Import to Galaxy Australia
+              button_tip: Import to Galaxy {{ site_name }}
+          exclude_from:
+            - usegalaxy.org
+            - usegalaxy.eu
 
   - id: help
     title: Help
@@ -311,7 +320,7 @@ tabs:
           <p>
             The flowchart below shows how you might use your input data (in green) with different Galaxy tools (in blue) to annotate a genome assembly. For example, one pathway would be taking an assembled genome, plus information about repeats, and data from RNA-seq, to run in the Maker pipeline. The annotatations can then be viewed in JBrowse.
           </p>
-          <img class="img-fluid" src="./static/annotation-overview.png" alt="Genome annotation flowchart">
+          <img class="img-fluid" src="https://raw.githubusercontent.com/galaxyproject/galaxy_codex/refs/heads/main/communities/genome/lab/static/annotation-overview.png" alt="Genome annotation flowchart">
           <p class="text-center">
             A graphical representation of genome annotation
           </p>
@@ -323,6 +332,9 @@ tabs:
         button_md: Apply
         button_link: https://site.usegalaxy.org.au/request/access/fgenesh
         button_tip: Apply for access to Fgenesh++
+        exclude_from:
+          - usegalaxy.org
+          - usegalaxy.eu
       - title_md: Can I use Apollo to share and edit the annotated genome?
         description_md: >
           <p>
@@ -336,6 +348,9 @@ tabs:
           </p>
         button_md: More info
         button_link: https://support.biocommons.org.au/support/solutions/articles/6000244843-apollo-for-collaborative-curation-and-editing
+        exclude_from:
+          - usegalaxy.org
+          - usegalaxy.eu
       - title_md: Tutorials
         description_md: >
           <p class="lead">
@@ -351,10 +366,10 @@ tabs:
           <p>
             This <a href="https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/funannotate/tutorial.html" target="_blank"> Galaxy tutorial </a> provides a complete walkthrough of the process of annotation with Funannotate, including the preparation of RNAseq data, structural annotation, functional annotation, visualisation, and comparing annotations.
           </p>
-      - title_md: Galaxy Australia support
+      - title_md: Galaxy support
         description_md: >
           <p>
-            Any user of Galaxy Australia can request support through an online form.
+            Any user of Galaxy {{ site_name }} can request support through an online form.
           </p>
         button_md: Request support
-        button_link: /request/support
+        button_link: "{{ support_url }}"
