@@ -1,0 +1,89 @@
+name: Test changed Lab pages
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  test-changed-labs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.repository }}
+          ref: main
+          path: base
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Checkout base branch
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.pull_request.base.repo.full_name }}
+          ref: ${{ github.event.pull_request.base.ref }}
+          path: base
+
+      - name: Checkout head branch
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+          path: head
+
+      - name: Get list of changed files
+        id: changed-files
+        run: |
+          cd head
+          git remote add upstream https://github.com/${{ github.repository }}
+          git fetch upstream main
+          git diff --name-only upstream/main..HEAD | grep '/lab/' > ../paths.txt
+          cd ..
+          echo ""
+          echo "Changed files:"
+          cat paths.txt
+          mkdir output
+          mv paths.txt output/
+
+      - name: Test changed Lab pages
+        id: test-labs
+        env:
+          BRANCH_NAME: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+        run: |
+          if [ -s output/paths.txt ]; then
+            echo "Changed files found"
+            python3 base/.github/scripts/labs_test.py output/paths.txt
+          else
+            echo "No changes to Galaxy Labs found"
+          fi
+        continue-on-error: true
+
+      - name: Write pull request variables to env.sh
+        env:
+          PR_NUMBER: ${{ github.event.number }}
+          BRANCH_NAME: ${{ github.event.pull_request.head.ref }}
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          BASE_REPO: ${{ github.repository }}
+        run: |
+          echo "export PR_NUMBER=${PR_NUMBER}" >> output/env.sh
+          echo "export BASE_REPO=${BASE_REPO}" >> output/env.sh
+
+      - name: Upload test result comments artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: labs_test_comments
+          path: output
+
+      - name: Check outcome of the previous step
+        id: check-outcome
+        run: |
+          if [ "${{ steps.test-labs.outcome }}" == "failure" ]; then
+            echo "Test failed"
+            exit 1
+          else
+            echo "Test passed"
+          fi

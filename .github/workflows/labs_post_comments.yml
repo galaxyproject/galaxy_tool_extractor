@@ -1,0 +1,52 @@
+name: Galaxy Labs PR - post comment(s)
+
+on:
+  workflow_run:
+    workflows: ["Test changed Lab pages"]
+    types:
+      - completed
+
+jobs:
+  test-labs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.repository }}
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install pygithub
+        run: pip install pygithub
+
+      - name: Install GitHub CLI
+        run: sudo apt-get install gh
+
+      - name: Download "Test changed Lab pages" artifact
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh repo set-default galaxyproject/galaxy_codex
+          RUN_ID=$(gh run list --workflow "Test changed Lab pages" --limit 1 | tail -n 1 | grep -oE '\b[0-9]{11}\b')
+          echo "RUN_ID: $RUN_ID"
+          gh run view $RUN_ID --log
+          gh run download $RUN_ID --name labs_test_comments --dir ./labs_test_comments
+
+      - name: Post comment if matching changes found
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  #${{ secrets.GH_PR_TOKEN }}
+        run: |
+          if ls labs_test_comments/*.md 1> /dev/null 2>&1; then
+            echo "Changed files found"
+            echo "Sourcing environment variables from env.sh:"
+            cat labs_test_comments/env.sh
+            source labs_test_comments/env.sh
+            python3 ./.github/scripts/labs_post_comments.py labs_test_comments
+          else
+            echo "No changed files found"
+          fi
