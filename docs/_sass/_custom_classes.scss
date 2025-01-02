@@ -1,0 +1,61 @@
+// Include here all custom classes to add extra styling on top of what the theme and bootstrap variables offer. 
+
+//Example for highlighting the active page in the navigation:
+/*-----Top navigation-----*/
+
+.nav-link {
+    color: $primary;
+}
+
+.navbar-nav .nav-item > a {
+    &.active {
+        color: $primary;
+        background-color: $white;
+        border-radius: $border-radius;
+    }
+}
+
+/* see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme*/
+
+header .navbar {
+    background-color: $light;
+    .navbar-brand {
+        font-size: 2.25rem;
+        color: $primary !important;
+            img {
+                max-height: 80px;
+            }
+    }
+}
+
+img {
+    @extend .img-fluid;
+}
+
+h2 {
+    padding-top: 10px;
+    display: block;
+    border-top: 1px solid $table-border-color;
+}
+
+/*-----Copied and adapted from https://github.com/elixir-europe/infectious-diseases-toolkit/blob/main/_sass/_custom_classes.scss-----*/
+/*-----Section navigation tiles-----*/
+
+.navigation-tiles {
+    .card:hover {
+        box-shadow: $box-shadow;
+    }
+
+    .card-header {
+        a:hover {
+            text-decoration: none;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+    }
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+

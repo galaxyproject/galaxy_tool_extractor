@@ -2,3 +2,4 @@
 __pycache__
 results/test*
 results/*/test*
+docs/_site

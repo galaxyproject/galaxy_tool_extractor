@@ -1,0 +1,36 @@
+- name: How to improve the annotation of Galaxy resources?
+  type: Hub post
+  description: Outcomes of an online hackathon for improving the annotation of Galaxy resources for microbial data resources.
+  url: https://galaxyproject.org/news/2024-04-microgalaxy-hackathon/
+- name: GCC 2024 Training
+  type: Hub post
+  description: Collecting, Organizing, and Broadcasting Galaxy Tools for a Dedicated Scientific Community (using the Galaxy Tool Metadata Extractor Workflow).
+  url: https://galaxyproject.org/events/gcc2024/training/tool-finding/
+- name: Project 25 - ELIXIR BioHackathon in Barcelona
+  type: Hub post
+  description: Project 25 - Increasing the findability, visibility, and impact of Galaxy tools for specialised scientific Communities.
+  url: https://galaxyproject.org/news/2023-11-06-biohackathon/#project-25-increasing-the-findability-visibility-and-impact-of-galaxy-tools-for-specialised-scientific-communities
+- name: Project 25 GitHub - BioHackathon Europe projects 2023
+  type: Repository
+  description: Project 25 - Increasing the findability, visibility, and impact of Galaxy tools for specialised scientific Communities.
+  url: https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/25
+- name: microGalaxy SIG - microbial data analysis resources in Galaxy
+  type: Project using CoDex
+  description: Microbiology research involving microbiomes, meta*omics, and targeted microbial data analysis requires advanced programming skills, specialized tools, and signiﬁcant computing power. Autonomous handling of these tasks can impede researchers’ progress. The microGalaxy Scientiﬁc Interest Group (SIG) is here to help! The microGalaxy SIG maintains the Galaxy Community Hub page and a dedicated microbial Galaxy subdomain - <https://microgalaxy.usegalaxy.eu>.
+  url: https://doi.org/10.7490/f1000research.1119768.1
+- name: ELIXIR Research Software Ecosystem (RSEc)
+  type: Project using CoDex
+  description: The ELIXIR Research Software Ecosystem (RSEc) is a project that centralizes and curates high-quality metadata for computational biology software tools, providing a unified resource for researchers.
+  url: https://research-software-ecosystem.github.io
+- name: microGalaxy Technical Paper 2024 Preparation
+  type: Paper
+  description: This repository includes all the scripts written to produce figures in the paper along with the resulting figures.
+  url: https://github.com/usegalaxy-eu/microgalaxy_technical_paper_2024
+- name: Creation of an interactive Galaxy tools table for your community.
+  type: GTN tutorial
+  description: Create a community reviewed table for Galaxy tools within a specific scientific domain, and embed an interactive table in a community page.
+  url: https://gxy.io/GTN:T00426
+- name: Adding and updating best practice metadata for Galaxy tools using the bio.tools registry
+  type: GTN tutorial
+  description: Identify Galaxy tools without a bio.tools entry, create a bio.tools entry, update a bio.tools entry, add EDAM ontology terms to a bio.tools entry, and link a Galaxy tool to its corresponding bio.tools entry.
+  url: https://gxy.io/GTN:T00421

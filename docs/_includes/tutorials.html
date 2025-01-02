@@ -1,0 +1,62 @@
+{%- if include.tag %}
+{%- assign tools = site.data.tutorials | add_related_pages | where:"related_pages", include.tag  | sort_natural: "name" %}
+{%- else %}
+{%- assign tools = site.data.tutorials | add_related_pages  | sort_natural: "name" %}
+{%- endif %}
+{%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
+{%- unless tools.size == 0 or tools == nil %}
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
+<div class="table-responsive mt-4 mb-5">
+    <table class="tooltable table display table-bordered table-striped w-100">
+        <thead>
+            <tr>
+                <th style="text-align: center">Title (+link)</th>
+                <th style="text-align: center">GTN topic name</th>
+                <th style="text-align: center">Creation date</th>
+                <th style="text-align: center">Last updated</th>
+                <th style="text-align: center">EDAM topic(s)</th>
+                <th style="text-align: center">EDAM operation(s)</th>
+                <th style="text-align: center">Resources available</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for tool in tools %}
+            <tr>
+                <td>
+                <div>
+                  {% if tool.title != "" %}
+                    <a href='{{ tool.url }}'>{{ tool.title }}</a>
+                  {% else %}
+                    <a href="#">{{ tool.title }}</a>
+                  {% endif %}
+                </div>
+                </td>
+                <td style="text-align: center">{{ tool.topic_name_human }}</td>
+                <td style="text-align: center">{{ tool.pub_date }}</td>
+                <td style="text-align: center">{{ tool.mod_date }}</td>
+                <td style="text-align: center">
+                    {% if tool.edam_topic %} {%- for topic in tool.edam_topic %}
+                    <span class="badge text-bg-light">
+                        {{topic}}
+                    </span>
+                    {%- endfor %} {%- endif %}
+                </td>
+                <td style="text-align: center">
+                    {% if tool.edam_operation %} {%- for operation in tool.edam_operation %}
+                    <span class="badge text-bg-light">
+                        {{operation}}
+                    </span>
+                    {%- endfor %} {%- endif %}
+                </td>
+                <td style="text-align: center">
+                    {% if tool.slides %}<span class="badge text-bg-light">Slides</span>{%- endif %}
+                    {% if tool.video %}<span class="badge text-bg-light">Video</span>{%- endif %}
+                    {% if tool.hands_on %}<span class="badge text-bg-light">Hands-on</span>{%- endif %}
+                </td>
+            </tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+{%- endunless %}
+<div id="skip-tool-table"></div>

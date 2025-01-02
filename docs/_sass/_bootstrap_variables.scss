@@ -1,0 +1,30 @@
+//
+// BioCommons Colors: https://github.com/AustralianBioCommons/umccr-dictionary/blob/main/docs/_sass/custom/custom.scss
+//
+
+$bioc-pink:#ed087c;
+$bioc-purple: #b21e8d;
+$bioc-blue: #205a86;
+$bioc-yellow: #f49f1d;
+$bioc-teal: #5ac3b1;
+$bioc-olive: #8ea869;
+$bioc-green: #2cb77c;
+
+/*-----Theme colors-----*/
+$primary:       $bioc-blue;
+$secondary:     $bioc-green;
+$light:         #f8f9fa;
+$white:         #FFFFFF;
+$blue:          $bioc-blue;
+$dark:          #212529;
+
+/*-----Custom values for Bootstrap variables-----*/
+$link-decoration: none;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $white;
+$navbar-light-hover-color: $light;
+$navbar-light-hover-color: $dark;
+$nav-link-color: $white;
+$nav-link-hover-color: $light;
+
+// Find out which bootstrap variables you can use to fine tune the styling of your website here: https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/_sass/bootstrap/_variables.scss

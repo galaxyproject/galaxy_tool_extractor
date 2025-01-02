@@ -1,0 +1,49 @@
+title: Galaxy CoDex
+# This appears in the html browser tab for the site title (seen mostly by search engines, not users)
+
+topnav_title: CoDex
+# Optional: this appears on the top navigation bar next to the main_logo.svg icon
+
+description: "Galaxy Communities Dock (Galaxy Codex) is a catalog of Galaxy resources (i.e. tools, training, workflows) that can be filtered for any community."
+# Metadata description of the website
+
+remote_theme: ELIXIR-Belgium/elixir-toolkit-theme
+
+theme_variables:
+  # biocommons blue
+  theme_color: 205a86
+  datatables: 
+    searchbuilder: True
+  topnav:
+    brand_logo: assets/img/galaxy_project_logo_square.png
+
+exclude:
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - publications/*
+  - vendor
+
+defaults:
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      permalink: /:basename
+      layout: "page"
+      sidebar: main
+  -
+    scope:
+      path: "index.md"
+      type: "pages"
+    values:
+      permalink: /:basename
+      layout: "page"
+      sidebar: main
+
+plugins:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - webrick
+  - elixir-toolkit-theme-plugins

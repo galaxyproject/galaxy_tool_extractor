@@ -1,0 +1,124 @@
+{%- if include.tag %}
+{%- assign tools = site.data.tools | add_related_pages | where:"related_pages", include.tag  | sort_natural: "name" %}
+{%- else %}
+{%- assign tools = site.data.tools | add_related_pages  | sort_natural: "name" %}
+{%- endif %}
+{%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
+{%- unless tools.size == 0 or tools == nil %}
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
+<div class="table-responsive mt-4 mb-5">
+    <table class="tooltable table display table-bordered table-striped w-100">
+        <thead>
+            <tr>
+                <th style="text-align: center">Galaxy wrapper id (+link)</th>
+                <th style="text-align: center">Galaxy wrapper version</th>
+                <th style="text-align: center">Date of first commit of the suite</th>
+                <th style="text-align: center">Galaxy tool ids</th>
+                <th style="text-align: center">Description</th>
+                <th style="text-align: center">EDAM topic(s)</th>
+                <th style="text-align: center">EDAM operation(s)</th>
+                <th style="text-align: center">Tool usage (all time, all main servers)</th>
+                <th style="text-align: center">Source</th>
+                <th style="text-align: center">bio.tools (if available)</th>
+                <th style="text-align: center">Conda id</th>
+                <th style="text-align: center">Conda version</th>
+                <th style="text-align: center">biii</th>
+                <th style="text-align: center">Status</th>
+                <th style="text-align: center">Availability across Galaxies</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for tool in tools %}
+            <tr>
+                <td>
+                <div>
+                  {% if tool.["Galaxy wrapper source"] != "" %}
+                    <a href='{{ tool.["Galaxy wrapper source"] }}'>{{ tool.["Galaxy wrapper id"] }}</a>
+                  {% else %}
+                    <a href="#">{{ tool.["Galaxy wrapper id"] }}</a>
+                  {% endif %}
+                </div>
+                </td>
+                <td style="text-align: center">{{tool.["Galaxy wrapper version"]}}</td>
+                <td style="text-align: center">{{tool.["Date of first commit of the suite"]}}</td>
+                <td style="text-align: center">
+                    {% if tool.["Galaxy tool ids"] %} {%- for id in tool.["Galaxy tool ids"] %}
+                    <span class="badge text-bg-light">
+                        {{id}}
+                    </span>
+                    {%- endfor %} {%- endif %}
+                </td>
+                <td>{{tool.Description}}</td>
+                <td style="text-align: center">
+                    {% if tool.["EDAM topic"] %} {%- for topic in tool.["EDAM topic"] %}
+                    <span class="badge text-bg-light">
+                        {{topic}}
+                    </span>
+                    {%- endfor %} {%- endif %}
+                </td>
+                <td style="text-align: center">
+                    {% if tool.["EDAM operation"] %} {%- for operation in tool.["EDAM operation"] %}
+                    <span class="badge text-bg-light">
+                        {{operation}}
+                    </span>
+                    {%- endfor %} {%- endif %}
+                </td>
+                <td style="text-align: center">{{tool.["Tool usage (all time) - all main servers"]}}</td>
+                <td style="text-align: center">
+                <div>
+                <a href="{{tool.Source}}">Link</a>
+                </div>
+                </td>
+                <td style="text-align: center">
+                <div>
+                  {% if tool.["bio.tool id"] != "null" %}
+                    <a href='https://bio.tools/{{ tool.["bio.tool id"] }}'>{{ tool.["bio.tool id"] }}</a>
+                  {% else %}
+                    <a href="#">""</a>
+                  {% endif %}
+                </div>
+                </td>
+                <td style="text-align: center">
+                <div>
+                  {% if tool.["Conda id"] != "null" %}
+                    <span class="badge text-bg-light">
+                        {{ tool.["Conda id"] }}
+                    </span>
+                  {% endif %}
+                </div>
+                </td>
+                <td style="text-align: center">
+                <div>
+                  {% if tool.["Conda version"] != "null" %}
+                    <span class="badge text-bg-light">
+                        {{ tool.["Conda version"] }}
+                    </span>
+                  {% endif %}
+                </div>
+                </td>
+                <td style="text-align: center">
+                <div>
+                  {% if tool.biii != "null" %}
+                    <span class="badge text-bg-light">
+                        {{ tool.biii }}
+                    </span>
+                  {% endif %}
+                </div>
+                </td>
+                <td>{{tool.Status}}</td>
+                <td>
+                <div>
+                  {% if tool.availability %} {%- for instance in tool.availability %}
+                    <span class="badge text-bg-light">
+                        {{instance}}
+                    </span>
+                  {%- endfor %} {%- endif %}
+                </div>
+                </td>
+            </tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+{%- endunless %}
+<div id="skip-tool-table"></div>

@@ -1,0 +1,34 @@
+{%- if include.tag %}
+{%- assign tools = site.data.tool_and_resource_list | add_related_pages | where:"related_pages", include.tag  | sort_natural: "name" %}
+{%- else %}
+{%- assign tools = site.data.tool_and_resource_list | add_related_pages  | sort_natural: "name" %}
+{%- endif %}
+{%- assign country_pages = site.pages | where_exp: "item", "item.search_exclude != true" | where_exp:"item","item.national_resources != nil" %}
+{%- unless tools.size == 0 or tools == nil %}
+<a class="visually-hidden-focusable" href='#skip-tool-table'>Skip tool table</a>
+<div class="table-responsive mt-4 mb-5">
+    <table class="tooltable table display">
+        <thead>
+            <tr class="text-nowrap">
+                <th>Resource</th>
+                <th>Description</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for tool in tools %}
+            <tr>
+                {% if tool.url %}
+                <td><a href="{{tool.url}}">{{tool.name}}</a></td>
+                {%- else %}
+                <td>{{tool.name}}</td>
+                {%- endif %}
+                <td>{{tool.description}}</td>
+                <td>{{tool.type}}</td>
+            </tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>
+{%- endunless %}
+<div id="skip-tool-table"></div>

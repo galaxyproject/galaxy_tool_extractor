@@ -1,0 +1,44 @@
+name: Lint Jekyll site
+
+on: [push, pull_request]
+
+jobs:
+  check-internal-links:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1.196.0
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+          cache-version: 0
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+      - name: Install dependencies
+        run: |
+          bundle install
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: |
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --strict_front_matter 
+        env:
+          PAGES_REPO_NWO: ${{ github.repository }}
+          JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JEKYLL_BUILD_BRANCH: ${{ github.ref_name }}
+          JEKYLL_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      #- name: Validate HTML and check links
+      #  run: |
+      #    bundle exec htmlproofer \
+      #      --allow_missing_href=true \
+      #      --ignore-urls "/.*localhost.*/","/.*gitter\.im.*/" \
+      #      --enforce-https=false  \
+      #      --disable-external=true \
+      #      --ignore_empty_alt=true \
+      #      --ignore_missing_alt=true \
+      #      --check-internal-hash=false \
+      #      ./_site

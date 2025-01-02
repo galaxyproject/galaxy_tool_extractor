@@ -1,0 +1,8 @@
+subitems:
+  - title: About
+    url: /about
+  - title: Publications and online information
+    url: /project
+  - title: How-to contribute
+    url: /contributing
+  

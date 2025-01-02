@@ -1,0 +1,18 @@
+
+############################
+### List of contributors ###
+############################
+
+### see https://github.com/ELIXIR-Belgium/elixir-toolkit-theme
+
+#############################################################################################################################################
+### add maintainers/contributors below and use their name in the contributors metadata section on each page they have contributed towards ###
+#############################################################################################################################################
+
+# an example contributor is included below
+# example roles include "lead", "first-author", "author", "editor", "workflow-tester"
+
+Johan Gustafsson:
+    git: supernord
+    orcid: 0000-0002-2977-5032
+    affiliation: Australian BioCommons / University of Melbourne
