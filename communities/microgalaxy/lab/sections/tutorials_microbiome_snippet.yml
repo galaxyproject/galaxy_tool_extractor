@@ -1,0 +1,69 @@
+content:
+  - title_md: Analyses of metagenomics data - The global picture
+    description_md: Analyses of metagenomics data - The global picture
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/general-tutorial/tutorial.html
+  - title_md: Metatranscriptomics analysis using microbiome RNA-seq data
+    description_md: Metatranscriptomics analysis using microbiome RNA-seq data
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/metatranscriptomics/tutorial.html
+  - title_md: Pathogen detection from (direct Nanopore) sequencing data using Galaxy
+      - Foodborne Edition
+    description_md: Pathogen detection from (direct Nanopore) sequencing data using
+      Galaxy - Foodborne Edition
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html
+  - title_md: Metatranscriptomics analysis using microbiome RNA-seq data (short)
+    description_md: Metatranscriptomics analysis using microbiome RNA-seq data (short)
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/metatranscriptomics-short/tutorial.html
+  - title_md: Taxonomic Profiling and Visualization of Metagenomic Data
+    description_md: Taxonomic Profiling and Visualization of Metagenomic Data
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/taxonomic-profiling/tutorial.html
+  - title_md: Assembly of metagenomic sequencing data
+    description_md: Assembly of metagenomic sequencing data
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/metagenomics-assembly/tutorial.html
+  - title_md: Antibiotic resistance detection
+    description_md: Antibiotic resistance detection
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html
+  - title_md: Building an amplicon sequence variant (ASV) table from 16S data using
+      DADA2
+    description_md: Building an amplicon sequence variant (ASV) table from 16S data
+      using DADA2
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/dada-16S/tutorial.html
+  - title_md: 16S Microbial analysis with Nanopore data
+    description_md: 16S Microbial analysis with Nanopore data
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html
+  - title_md: Identification of the micro-organisms in a beer using Nanopore sequencing
+    description_md: Identification of the micro-organisms in a beer using Nanopore sequencing
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/beer-data-analysis/tutorial.html
+  - title_md: QIIME 2 Moving Pictures
+    description_md: QIIME 2 Moving Pictures
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/qiime2-moving-pictures/tutorial.html
+  - title_md: Binning of metagenomic sequencing data
+    description_md: Binning of metagenomic sequencing data
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/metagenomics-binning/tutorial.html
+  - title_md: QIIME 2 Cancer Microbiome Intervention
+    description_md: QIIME 2 Cancer Microbiome Intervention
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/qiime2-cancer-microbiome-intervention/tutorial.html
+  - title_md: 16S Microbial Analysis with mothur (extended)
+    description_md: 16S Microbial Analysis with mothur (extended)
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/mothur-miseq-sop/tutorial.html
+  - title_md: 16S Microbial Analysis with mothur (short)
+    description_md: 16S Microbial Analysis with mothur (short)
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html
+  - title_md: 16S Microbial analysis with Nanopore data
+    description_md: 16S Microbial analysis with Nanopore data
+    button_link: 
+      https://training.galaxyproject.org//topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html

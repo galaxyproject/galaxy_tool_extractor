@@ -1,0 +1,295 @@
+content:
+- title_md: AMR-Pathfinder
+  description_md: AMR-Pathfinder
+  button_link: https://workflowhub.eu/workflows/1189?version=2
+- title_md: bacterial-genome-assembly/main
+  description_md: bacterial-genome-assembly/main
+  button_link: https://workflowhub.eu/workflows/1043?version=7
+- title_md: quality-and-contamination-control/main
+  description_md: quality-and-contamination-control/main
+  button_link: https://workflowhub.eu/workflows/1052?version=8
+- title_md: 'Workflow 4: Staramr'
+  description_md: 'Workflow 4: Staramr'
+  button_link: https://workflowhub.eu/workflows/470?version=1
+- title_md: bacterial_genome_annotation/main
+  description_md: bacterial_genome_annotation/main
+  button_link: https://workflowhub.eu/workflows/1050?version=9
+- title_md: amr_gene_detection/main
+  description_md: amr_gene_detection/main
+  button_link: https://workflowhub.eu/workflows/1049?version=7
+- title_md: pox-virus-amplicon/main
+  description_md: pox-virus-amplicon/main
+  button_link: https://workflowhub.eu/workflows/439?version=2
+- title_md: '3: Plant virus exploration'
+  description_md: '3: Plant virus exploration'
+  button_link: https://workflowhub.eu/workflows/103?version=1
+- title_md: '2: Plant virus confirmation'
+  description_md: '2: Plant virus confirmation'
+  button_link: https://workflowhub.eu/workflows/102?version=1
+- title_md: '1: Plant virus detection with kraken2 (SE)'
+  description_md: '1: Plant virus detection with kraken2 (SE)'
+  button_link: https://workflowhub.eu/workflows/124?version=1
+- title_md: '1: Plant virus detection with kraken2 (PE)'
+  description_md: '1: Plant virus detection with kraken2 (PE)'
+  button_link: https://workflowhub.eu/workflows/101?version=1
+- title_md: Halophiles workup of Comparative gene analysis
+  description_md: Halophiles workup of Comparative gene analysis
+  button_link: https://usegalaxy.eu/published/workflow?id=a2c46deea34d9d80
+- title_md: pAllori Blood RNA
+  description_md: pAllori Blood RNA
+  button_link: https://usegalaxy.eu/published/workflow?id=ca9d3233b0912765
+- title_md: Metaproteomics workflow
+  description_md: Metaproteomics workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=cefc49c13ff73231
+- title_md: Feature-Count Table Normalization
+  description_md: Feature-Count Table Normalization
+  button_link: https://usegalaxy.eu/published/workflow?id=6239178d7cc4ac68
+- title_md: metaQuantome_datacreation_workflow
+  description_md: metaQuantome_datacreation_workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=cd675ab32d3e7833
+- title_md: metaquantome-function-worklow
+  description_md: metaquantome-function-worklow
+  button_link: https://usegalaxy.eu/published/workflow?id=e5a89ef7b5f1c1d9
+- title_md: Allele-based Pathogen Identification (release v0.1.2)
+  description_md: Allele-based Pathogen Identification (release v0.1.2)
+  button_link: https://usegalaxy.eu/published/workflow?id=64abcddeb516a712
+- title_md: Taxonomy Profiling and Visualization with Kron (release v0.1)
+  description_md: Taxonomy Profiling and Visualization with Kron (release v0.1)
+  button_link: https://usegalaxy.eu/published/workflow?id=ad8b6d73c9654305
+- title_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation (release
+    v0.1)
+  description_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+    (release v0.1)
+  button_link: https://usegalaxy.eu/published/workflow?id=f6a763951d815944
+- title_md: Nanopore Preprocessing (release v0.1)
+  description_md: Nanopore Preprocessing (release v0.1)
+  button_link: https://usegalaxy.eu/published/workflow?id=344cd3a3c2ce5302
+- title_md: Gene-based Pathogen Identification (release v0.1)
+  description_md: Gene-based Pathogen Identification (release v0.1)
+  button_link: https://usegalaxy.eu/published/workflow?id=77e5bbd317750915
+- title_md: Allele-based Pathogen Identification (release v0.1)
+  description_md: Allele-based Pathogen Identification (release v0.1)
+  button_link: https://usegalaxy.eu/published/workflow?id=d215a2e554fd83bc
+- title_md: Allele-based Pathogen Identification (release v0.1.1)
+  description_md: Allele-based Pathogen Identification (release v0.1.1)
+  button_link: https://usegalaxy.eu/published/workflow?id=cdf2f02428f5f83f
+- title_md: pAllori WGS
+  description_md: pAllori WGS
+  button_link: https://usegalaxy.eu/published/workflow?id=4f245ac304ab76d9
+- title_md: MAGs workflow
+  description_md: MAGs workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=97312d273b6e8bd9
+- title_md: PathoGFAIR
+  description_md: PathoGFAIR
+  button_link: https://usegalaxy.eu/published/workflow?id=0dce37adb369492c
+- title_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+  description_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+  button_link: https://usegalaxy.eu/published/workflow?id=376119528377a3ae
+- title_md: Allele-based Pathogen Identification
+  description_md: Allele-based Pathogen Identification
+  button_link: https://usegalaxy.eu/published/workflow?id=09c7069ae409c362
+- title_md: Nanopore Preprocessing
+  description_md: Nanopore Preprocessing
+  button_link: https://usegalaxy.eu/published/workflow?id=a705370bc2c13d5c
+- title_md: Taxonomy Profiling and Visualization with Phinch
+  description_md: Taxonomy Profiling and Visualization with Phinch
+  button_link: https://usegalaxy.eu/published/workflow?id=b67b5ecd3305f830
+- title_md: metaQuantome_datacreation_workflow
+  description_md: metaQuantome_datacreation_workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=fc42cc9467c6ee8d
+- title_md: Gene-based Pathogen Identification
+  description_md: Gene-based Pathogen Identification
+  button_link: https://usegalaxy.eu/published/workflow?id=585c21b7b1d864fc
+- title_md: Taxonomy Profiling and Visualization with Krona
+  description_md: Taxonomy Profiling and Visualization with Krona
+  button_link: https://usegalaxy.eu/published/workflow?id=10101558b211a782
+- title_md: Pathogen-Detection-Nanopore-All-Samples-Analysis-Juyptool
+  description_md: Pathogen-Detection-Nanopore-All-Samples-Analysis-Juyptool
+  button_link: https://usegalaxy.eu/published/workflow?id=c8bc4af6dd3b5d02
+- title_md: Mgnify ML
+  description_md: Mgnify ML
+  button_link: https://usegalaxy.eu/published/workflow?id=011f701c5a55bfdf
+- title_md: Normalization
+  description_md: Normalization
+  button_link: https://usegalaxy.eu/published/workflow?id=0603f0898211f806
+- title_md: WF1_Database_Generation_Workflow
+  description_md: WF1_Database_Generation_Workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=7cfbf4b7bd3f30d3
+- title_md: WF2_Discovery-Workflow
+  description_md: WF2_Discovery-Workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=8af41219411062ad
+- title_md: WF3_VERIFICATION_WORKFLOW
+  description_md: WF3_VERIFICATION_WORKFLOW
+  button_link: https://usegalaxy.eu/published/workflow?id=d87fc6685e47d27d
+- title_md: WF4_Quantitation_Workflow
+  description_md: WF4_Quantitation_Workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=a49275eb8b2b2ecb
+- title_md: WF5_Data_Interpretation_Worklow
+  description_md: WF5_Data_Interpretation_Worklow
+  button_link: https://usegalaxy.eu/published/workflow?id=755ede37d94dc456
+- title_md: MetaG_extended
+  description_md: MetaG_extended
+  button_link: https://usegalaxy.eu/published/workflow?id=d57d41e306241396
+- title_md: MetaP
+  description_md: MetaP
+  button_link: https://usegalaxy.eu/published/workflow?id=01ac8bf9832789e2
+- title_md: MetaT
+  description_md: MetaT
+  button_link: https://usegalaxy.eu/published/workflow?id=3733bcdf5b458be7
+- title_md: metaquantome-taxonomy-workflow
+  description_md: metaquantome-taxonomy-workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=695f7defb516d80d
+- title_md: metaquantome-function-worklow
+  description_md: metaquantome-function-worklow
+  button_link: https://usegalaxy.eu/published/workflow?id=4c364c6be27981ba
+- title_md: Metaproteomics_GTN
+  description_md: Metaproteomics_GTN
+  button_link: https://usegalaxy.eu/published/workflow?id=68967c922de149ae
+- title_md: Ecoli Comparison
+  description_md: Ecoli Comparison
+  button_link: https://usegalaxy.eu/published/workflow?id=0e492839192d26e0
+- title_md: Main Metatranscriptomics Analysis
+  description_md: Main Metatranscriptomics Analysis
+  button_link: https://usegalaxy.eu/published/workflow?id=7a08ecdf23e0c7a3
+- title_md: workflow-generate-dataset-for-assembly-tutorial
+  description_md: workflow-generate-dataset-for-assembly-tutorial
+  button_link: https://usegalaxy.eu/published/workflow?id=ce5c16ac23c4fbb1
+- title_md: Metagenomics assembly tutorial workflow
+  description_md: Metagenomics assembly tutorial workflow
+  button_link: https://usegalaxy.eu/published/workflow?id=62c47e3c9d4f3aa3
+- title_md: Microbial Variant Calling
+  description_md: Microbial Variant Calling
+  button_link: https://usegalaxy.eu/published/workflow?id=515ef1601bc24a6c
+- title_md: Calling variants in non-diploid systems
+  description_md: Calling variants in non-diploid systems
+  button_link: https://usegalaxy.eu/published/workflow?id=291c36e1b18e9deb
+- title_md: Comparative gene analysis
+  description_md: Comparative gene analysis
+  button_link: https://usegalaxy.eu/published/workflow?id=86900be4282d4b1d
+- title_md: Unicycler training
+  description_md: Unicycler training
+  button_link: https://usegalaxy.eu/published/workflow?id=8f3ce55d44d9f369
+- title_md: Apollo Load Test
+  description_md: Apollo Load Test
+  button_link: https://usegalaxy.eu/published/workflow?id=3c233cc56d4df8b0
+- title_md: Genome Annotation with Prokka [Feb 2020]
+  description_md: Genome Annotation with Prokka [Feb 2020]
+  button_link: https://usegalaxy.eu/published/workflow?id=e1894c36f1ab4ab4
+- title_md: Flye-AMR workflow EMC/WMDI - v3.5  (imported from URL)
+  description_md: Flye-AMR workflow EMC/WMDI - v3.5  (imported from URL)
+  button_link: https://usegalaxy.eu/published/workflow?id=152223c8aed27357
+- title_md: Mtb phylogeny
+  description_md: Mtb phylogeny
+  button_link: https://usegalaxy.eu/published/workflow?id=875b3ca170ac12a1
+- title_md: From VCFs to SNP distance matrix
+  description_md: From VCFs to SNP distance matrix
+  button_link: https://usegalaxy.eu/published/workflow?id=6d333ed886aab471
+- title_md: From Fastqs to VCFs and BAMs
+  description_md: From Fastqs to VCFs and BAMs
+  button_link: https://usegalaxy.eu/published/workflow?id=3a8fde248a4d0383
+- title_md: From BAMs to drug resistance prediction with TB-profiler
+  description_md: From BAMs to drug resistance prediction with TB-profiler
+  button_link: https://usegalaxy.eu/published/workflow?id=d0d6dae0d1eecc21
+- title_md: M. tuberculosis Variant Analysis tutorial
+  description_md: M. tuberculosis Variant Analysis tutorial
+  button_link: https://usegalaxy.eu/published/workflow?id=3ff4dbcc7a602e6b
+- title_md: Compute Allel Frequency Table from paired reads
+  description_md: Compute Allel Frequency Table from paired reads
+  button_link: https://usegalaxy.eu/published/workflow?id=21a39ac4c1becb31
+- title_md: Reference genome choice (indels, coverage, depth) for short reads
+  description_md: Reference genome choice (indels, coverage, depth) for short reads
+  button_link: https://usegalaxy.eu/published/workflow?id=61fe08fb3d5e83f8
+- title_md: MGnify amplicon rRNA-prediction + ITS
+  description_md: MGnify amplicon rRNA-prediction + ITS
+  button_link: https://usegalaxy.eu/published/workflow?id=437704898229dfb6
+- title_md: MGnify amplicon QC
+  description_md: MGnify amplicon QC
+  button_link: https://usegalaxy.eu/published/workflow?id=8f415b0c409f56f7
+- title_md: pAllori ASiam Functional Information MT
+  description_md: pAllori ASiam Functional Information MT
+  button_link: https://usegalaxy.eu/published/workflow?id=a7a6d8ecc2795f58
+- title_md: ' pAllori ASiam Community Profile MT'
+  description_md: ' pAllori ASiam Community Profile MT'
+  button_link: https://usegalaxy.eu/published/workflow?id=05f5f040337786bf
+- title_md: ' pAllori ASiam Preprocessing MT'
+  description_md: ' pAllori ASiam Preprocessing MT'
+  button_link: https://usegalaxy.eu/published/workflow?id=72e3e5fdc766e24a
+- title_md: MetaP
+  description_md: MetaP
+  button_link: https://usegalaxy.eu/published/workflow?id=96d198ed953449fd
+- title_md: MetaG_extended
+  description_md: MetaG_extended
+  button_link: https://usegalaxy.eu/published/workflow?id=6158c3b5fc12044e
+- title_md: MetaT
+  description_md: MetaT
+  button_link: https://usegalaxy.eu/published/workflow?id=385cc7df70d7916b
+- title_md: Allele-based Pathogen Identification (release v0.1.1)
+  description_md: Allele-based Pathogen Identification (release v0.1.1)
+  button_link: https://usegalaxy.org/published/workflow?id=29ba77708cdafe0f
+- title_md: Allele-based Pathogen Identification (release v0.1.2)
+  description_md: Allele-based Pathogen Identification (release v0.1.2)
+  button_link: https://usegalaxy.org/published/workflow?id=6d778eeb176d563c
+- title_md: Taxonomy Profiling and Visualization with Kron (release v0.1)
+  description_md: Taxonomy Profiling and Visualization with Kron (release v0.1)
+  button_link: https://usegalaxy.org/published/workflow?id=4b5f6b5d4f36e38b
+- title_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation (release
+    v0.1)
+  description_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+    (release v0.1)
+  button_link: https://usegalaxy.org/published/workflow?id=3ef08553982f6ffc
+- title_md: Gene-based Pathogen Identification (release v0.1)
+  description_md: Gene-based Pathogen Identification (release v0.1)
+  button_link: https://usegalaxy.org/published/workflow?id=3f252e077e0bcce5
+- title_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+  description_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+  button_link: https://usegalaxy.org/published/workflow?id=2d3063882d8239ff
+- title_md: PathoGFAIR (imported from uploaded file)
+  description_md: PathoGFAIR (imported from uploaded file)
+  button_link: https://usegalaxy.org/published/workflow?id=e55593af91337a05
+- title_md: Taxonomy Profiling and Visualization with Krona
+  description_md: Taxonomy Profiling and Visualization with Krona
+  button_link: https://usegalaxy.org/published/workflow?id=8f5904693b5f74f4
+- title_md: Gene-based Pathogen Identification
+  description_md: Gene-based Pathogen Identification
+  button_link: https://usegalaxy.org/published/workflow?id=cce88bc57b180d09
+- title_md: Allele-based Pathogen Identification
+  description_md: Allele-based Pathogen Identification
+  button_link: https://usegalaxy.org/published/workflow?id=38911ba6f66d80f6
+- title_md: Nanopore Preprocessing
+  description_md: Nanopore Preprocessing
+  button_link: https://usegalaxy.org/published/workflow?id=574e42683dc3961b
+- title_md: Allele-based Pathogen Identification (release v0.1.2)
+  description_md: Allele-based Pathogen Identification (release v0.1.2)
+  button_link: https://usegalaxy.org.au/published/workflow?id=857e482acfcb2dba
+- title_md: Taxonomy Profiling and Visualization with Kron (release v0.1)
+  description_md: Taxonomy Profiling and Visualization with Kron (release v0.1)
+  button_link: https://usegalaxy.org.au/published/workflow?id=131636a795bac485
+- title_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation (release
+    v0.1)
+  description_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+    (release v0.1)
+  button_link: https://usegalaxy.org.au/published/workflow?id=b60922a253df6654
+- title_md: Nanopore Preprocessing (release v0.1)
+  description_md: Nanopore Preprocessing (release v0.1)
+  button_link: https://usegalaxy.org.au/published/workflow?id=69d91340fc7effa2
+- title_md: Gene-based Pathogen Identification (release v0.1)
+  description_md: Gene-based Pathogen Identification (release v0.1)
+  button_link: https://usegalaxy.org.au/published/workflow?id=084bb76cf47d7060
+- title_md: PathoGFAIR (imported from uploaded file)
+  description_md: PathoGFAIR (imported from uploaded file)
+  button_link: https://usegalaxy.org.au/published/workflow?id=f5f9808fb50b6f2c
+- title_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+  description_md: Pathogen Detection PathoGFAIR Samples Aggregation and Visualisation
+  button_link: https://usegalaxy.org.au/published/workflow?id=eda40b58616a0fe4
+- title_md: Allele-based Pathogen Identification
+  description_md: Allele-based Pathogen Identification
+  button_link: https://usegalaxy.org.au/published/workflow?id=244ea5e94237ebad
+- title_md: Gene-based Pathogen Identification
+  description_md: Gene-based Pathogen Identification
+  button_link: https://usegalaxy.org.au/published/workflow?id=ef8c22c2525063a2
+- title_md: Taxonomy Profiling and Visualization with Krona
+  description_md: Taxonomy Profiling and Visualization with Krona
+  button_link: https://usegalaxy.org.au/published/workflow?id=d9ba165e6ae55417
+- title_md: Nanopore Preprocessing
+  description_md: Nanopore Preprocessing
+  button_link: https://usegalaxy.org.au/published/workflow?id=25d52afddaa3451b

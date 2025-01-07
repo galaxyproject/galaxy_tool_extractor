@@ -4,14 +4,16 @@ tabs:
   - id: help
     title: Help
     heading_md: >
-      You can browse through workflows before that have been reviewed by scientists.  
+      You can request help trough different channels. If you think your problem might help other users as well,
+      please poste it in the Galaxy Help Forum. Please report tool bugs via the microGalaxy support and for 
+      specific questions feel free to reach out via the matrix chat.
     content:
-      - title_md: Troubleshooting errors
+      - title_md: Troubleshooting
         description_md: >
           Find specific advice for
           {gtn modal}[troubleshooting Galaxy errors](https://training.galaxyproject.org/training-material/faqs/galaxy/analysis_troubleshooting.html)
           on the GTN.
-      - title_md: Galaxy [American/Australia/EU/France/..] Support
+      - title_md: Galaxy Help Forum
         description_md: >
           Any user of Galaxy [American/Australia/EU/France/..] can request support online!
         button_md: Request support
@@ -41,8 +43,8 @@ tabs:
           [Privacy Policy]({{ data_policy_url }})
           for information on your personal data and any data that you upload.
 
-  - id: request
-    title: Request
+  - id: increase-quota
+    title: Increase quota
     content:
       - title_md: How can I increase my storage quota?
         description_md: >

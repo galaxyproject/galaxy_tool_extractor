@@ -1,0 +1,139 @@
+content:
+  - title_md: Making sense of a newly assembled genome
+    description_md: Making sense of a newly assembled genome
+    button_link: 
+      https://training.galaxyproject.org//topics/assembly/tutorials/ecoli_comparison/tutorial.html
+  - title_md: Genome Assembly of a bacterial genome (MRSA) sequenced using Illumina
+      MiSeq Data
+    description_md: Genome Assembly of a bacterial genome (MRSA) sequenced using Illumina
+      MiSeq Data
+    button_link: 
+      https://training.galaxyproject.org//topics/assembly/tutorials/mrsa-illumina/tutorial.html
+  - title_md: Assembly of metagenomic sequencing data
+    description_md: Assembly of metagenomic sequencing data
+    button_link: 
+      https://training.galaxyproject.org//topics/assembly/tutorials/metagenomics-assembly/tutorial.html
+  - title_md: Genome Assembly of MRSA from Oxford Nanopore MinION data (and optionally
+      Illumina data)
+    description_md: Genome Assembly of MRSA from Oxford Nanopore MinION data (and optionally
+      Illumina data)
+    button_link: 
+      https://training.galaxyproject.org//topics/assembly/tutorials/mrsa-nanopore/tutorial.html
+  - title_md: Unicycler Assembly
+    description_md: Unicycler Assembly
+    button_link: 
+      https://training.galaxyproject.org//topics/assembly/tutorials/unicycler-assembly/tutorial.html
+  - title_md: Checking expected species and contamination in bacterial isolate
+    description_md: Checking expected species and contamination in bacterial isolate
+    button_link: 
+      https://training.galaxyproject.org//topics/ecology/tutorials/bacterial-isolate-species-contamination-checking/tutorial.html
+  - title_md: Tree thinking for tuberculosis evolution and epidemiology
+    description_md: Tree thinking for tuberculosis evolution and epidemiology
+    button_link: 
+      https://training.galaxyproject.org//topics/evolution/tutorials/mtb_phylogeny/tutorial.html
+  - title_md: 'Identifying tuberculosis transmission links: from SNPs to transmission
+      clusters'
+    description_md: 'Identifying tuberculosis transmission links: from SNPs to transmission
+      clusters'
+    button_link: 
+      https://training.galaxyproject.org//topics/evolution/tutorials/mtb_transmission/tutorial.html
+  - title_md: Genome annotation with Prokka
+    description_md: Genome annotation with Prokka
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
+  - title_md: Refining Genome Annotations with Apollo (prokaryotes)
+    description_md: Refining Genome Annotations with Apollo (prokaryotes)
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/apollo/tutorial.html
+  - title_md: Identification of AMR genes in an assembled bacterial genome
+    description_md: Identification of AMR genes in an assembled bacterial genome
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/amr-gene-detection/tutorial.html
+  - title_md: Bacterial Genome Annotation
+    description_md: Bacterial Genome Annotation
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html
+  - title_md: Comparative gene analysis in unannotated genomes
+    description_md: Comparative gene analysis in unannotated genomes
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/gene-centric/tutorial.html
+  - title_md: Essential genes detection with Transposon insertion sequencing
+    description_md: Essential genes detection with Transposon insertion sequencing
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/tnseq/tutorial.html
+  - title_md: Genome annotation with Prokka
+    description_md: Genome annotation with Prokka
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html
+  - title_md: Making sense of a newly assembled genome
+    description_md: Making sense of a newly assembled genome
+    button_link: 
+      https://training.galaxyproject.org//topics/assembly/tutorials/ecoli_comparison/tutorial.html
+  - title_md: Microbial Variant Calling
+    description_md: Microbial Variant Calling
+    button_link: 
+      https://training.galaxyproject.org//topics/variant-analysis/tutorials/microbial-variants/tutorial.html
+  - title_md: Refining Genome Annotations with Apollo (prokaryotes)
+    description_md: Refining Genome Annotations with Apollo (prokaryotes)
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/apollo/tutorial.html
+  - title_md: Identification of AMR genes in an assembled bacterial genome
+    description_md: Identification of AMR genes in an assembled bacterial genome
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/amr-gene-detection/tutorial.html
+  - title_md: Bacterial Genome Annotation
+    description_md: Bacterial Genome Annotation
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/bacterial-genome-annotation/tutorial.html
+  - title_md: Tree thinking for tuberculosis evolution and epidemiology
+    description_md: Tree thinking for tuberculosis evolution and epidemiology
+    button_link: 
+      https://training.galaxyproject.org//topics/evolution/tutorials/mtb_phylogeny/tutorial.html
+  - title_md: 'Identifying tuberculosis transmission links: from SNPs to transmission
+      clusters'
+    description_md: 'Identifying tuberculosis transmission links: from SNPs to transmission
+      clusters'
+    button_link: 
+      https://training.galaxyproject.org//topics/evolution/tutorials/mtb_transmission/tutorial.html
+  - title_md: M. tuberculosis Variant Analysis
+    description_md: M. tuberculosis Variant Analysis
+    button_link: 
+      https://training.galaxyproject.org//topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
+  - title_md: Identification of AMR genes in an assembled bacterial genome
+    description_md: Identification of AMR genes in an assembled bacterial genome
+    button_link: 
+      https://training.galaxyproject.org//topics/genome-annotation/tutorials/amr-gene-detection/tutorial.html
+  - title_md: 'metaQuantome 1: Data creation'
+    description_md: 'metaQuantome 1: Data creation'
+    button_link: 
+      https://training.galaxyproject.org//topics/proteomics/tutorials/metaquantome-data-creation/tutorial.html
+  - title_md: Metaproteomics tutorial
+    description_md: Metaproteomics tutorial
+    button_link: 
+      https://training.galaxyproject.org//topics/proteomics/tutorials/metaproteomics/tutorial.html
+  - title_md: 'metaQuantome 2: Function'
+    description_md: 'metaQuantome 2: Function'
+    button_link: 
+      https://training.galaxyproject.org//topics/proteomics/tutorials/metaquantome-function/tutorial.html
+  - title_md: 'metaQuantome 3: Taxonomy'
+    description_md: 'metaQuantome 3: Taxonomy'
+    button_link: 
+      https://training.galaxyproject.org//topics/proteomics/tutorials/metaquantome-taxonomy/tutorial.html
+  - title_md: Quality and contamination control in bacterial isolate using Illumina
+      MiSeq Data
+    description_md: Quality and contamination control in bacterial isolate using Illumina
+      MiSeq Data
+    button_link: 
+      https://training.galaxyproject.org//topics/sequence-analysis/tutorials/quality-contamination-control/tutorial.html
+  - title_md: Calling variants in non-diploid systems
+    description_md: Calling variants in non-diploid systems
+    button_link: 
+      https://training.galaxyproject.org//topics/variant-analysis/tutorials/non-dip/tutorial.html
+  - title_md: M. tuberculosis Variant Analysis
+    description_md: M. tuberculosis Variant Analysis
+    button_link: 
+      https://training.galaxyproject.org//topics/variant-analysis/tutorials/tb-variant-analysis/tutorial.html
+  - title_md: Microbial Variant Calling
+    description_md: Microbial Variant Calling
+    button_link: 
+      https://training.galaxyproject.org//topics/variant-analysis/tutorials/microbial-variants/tutorial.html

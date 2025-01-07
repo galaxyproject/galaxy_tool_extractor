@@ -4,20 +4,12 @@ tabs:
   - id: participate
     title: Participate
     content:
-      - title_md: Chat with other users
-        description_md: >
-          Of course! Check out the microGalaxy Matrix channel
       - title_md: Join our community!
         description_md: >
-
           This Galaxy space is the result of hard, collaborative work by many contributors .
-
           It is maintained by the microGalaxy Community of Practice.
-
           This group unites scientists like yourself with software developers and bioinformaticians to create, share, and test resources to make microvial data analysis easier.
-
           Check out our site and join our community via [microGalaxy mailing list](https://lists.galaxyproject.org/lists/microgalaxy@lists.galaxyproject.org)!
-
         button_link: "{{ microgalaxy_matrix }}"
         button_md: 
         button_tip: Visit microGalaxy

@@ -5,34 +5,162 @@ tabs:
     title: Workflows
     heading_md: >
       
-    content: []
+    content:
+    - title_md: Taxonomy classification using Kraken2 and Bracken
+      description_md: Taxonomy classification using Kraken2 and Bracken
+      button_link: https://workflowhub.eu/workflows/1199?version=2
+    - title_md: Analyses of shotgun metagenomics data with MetaPhlAn2
+      description_md: Analyses of shotgun metagenomics data with MetaPhlAn2
+      button_link: https://workflowhub.eu/workflows/624?version=1
+    - title_md: 'Workflow 7 : Beta Diversity [16S Microbial Analysis With Mothur]'
+      description_md: 'Workflow 7 : Beta Diversity [16S Microbial Analysis With Mothur]'
+      button_link: https://workflowhub.eu/workflows/653?version=1
+    - title_md: 'Workflow 6: Alpha Diversity [16S Microbial Analysis With Mothur]'
+      description_md: 'Workflow 6: Alpha Diversity [16S Microbial Analysis With Mothur]'
+      button_link: https://workflowhub.eu/workflows/652?version=1
+    - title_md: 'Workflow 5: OTU Clustering [16S Microbial Analysis With Mothur]'
+      description_md: 'Workflow 5: OTU Clustering [16S Microbial Analysis With Mothur]'
+      button_link: https://workflowhub.eu/workflows/651?version=1
+    - title_md: 'Workflow 3: Classification [Galaxy Training: 16S Microbial Analysis With
+        Mothur]'
+      description_md: 'Workflow 3: Classification [Galaxy Training: 16S Microbial Analysis
+        With Mothur]'
+      button_link: https://workflowhub.eu/workflows/650?version=1
+    - title_md: 'Workflow 1: Further Quality Control [16S Microbial Analysis With Mothur]'
+      description_md: 'Workflow 1: Further Quality Control [16S Microbial Analysis With
+        Mothur]'
+      button_link: https://workflowhub.eu/workflows/648?version=1
+    - title_md: 'Workflow 2: Data Cleaning And Chimera Removal [16S Microbial Analysis
+        With Mothur]'
+      description_md: 'Workflow 2: Data Cleaning And Chimera Removal [16S Microbial Analysis
+        With Mothur]'
+      button_link: https://workflowhub.eu/workflows/649?version=1
+    - title_md: GTN Training - Antibiotic Resistance Detection
+      description_md: GTN Training - Antibiotic Resistance Detection
+      button_link: https://workflowhub.eu/workflows/406?version=1
+    - title_md: pAllori Amplicon 16S Pre-Processing and Taxonomy Classification
+      description_md: pAllori Amplicon 16S Pre-Processing and Taxonomy Classification
+      button_link: https://usegalaxy.eu/published/workflow?id=466bdd8ba7b67264
+    - title_md: Cloud Aerosol MT-MG Contamination Filtering
+      description_md: Cloud Aerosol MT-MG Contamination Filtering
+      button_link: https://usegalaxy.eu/published/workflow?id=c09159d7aad0f264
+    - title_md: Metatranscriptomics data analysis
+      description_md: Metatranscriptomics data analysis
+      button_link: https://usegalaxy.eu/published/workflow?id=fd90652d475ed739
+    - title_md: ' Cloud-Aerosole MT-MG Functional Profiling'
+      description_md: ' Cloud-Aerosole MT-MG Functional Profiling'
+      button_link: https://usegalaxy.eu/published/workflow?id=63478edcea3f449a
+    - title_md: Cloud-Aerosole MT-MG Pre-Processing
+      description_md: Cloud-Aerosole MT-MG Pre-Processing
+      button_link: https://usegalaxy.eu/published/workflow?id=1ef76b7b86e15792
+    - title_md: 'Training: 16S rRNA Analysis with Nanopore Sequencing Reads'
+      description_md: 'Training: 16S rRNA Analysis with Nanopore Sequencing Reads'
+      button_link: https://usegalaxy.eu/published/workflow?id=08eb5e55109c4d9c
+    - title_md: Copy Of GTN Training - Antibiotic Resistance Detection
+      description_md: Copy Of GTN Training - Antibiotic Resistance Detection
+      button_link: https://usegalaxy.eu/published/workflow?id=44e53ea319e07daa
+    - title_md: Identification of the micro-organisms in a beer using Nanopore sequencing
+      description_md: Identification of the micro-organisms in a beer using Nanopore sequencing
+      button_link: https://usegalaxy.eu/published/workflow?id=0590554db9794d13
+    - title_md: WGS Part In "Analyses Of Metagenomics Data - The Global Picture"
+      description_md: WGS Part In "Analyses Of Metagenomics Data - The Global Picture"
+      button_link: https://usegalaxy.eu/published/workflow?id=c2b7ec5aacfc6107
+    - title_md: Taxonomic Profiling and Visualization of Metagenomic Data
+      description_md: Taxonomic Profiling and Visualization of Metagenomic Data
+      button_link: https://usegalaxy.eu/published/workflow?id=4f0daf8e9dd54127
+    - title_md: Amplicon Tutorial
+      description_md: Amplicon Tutorial
+      button_link: https://usegalaxy.eu/published/workflow?id=565c989730f68362
+    - title_md: 'Training: 16S rRNA Sequencing With Mothur: Main Tutorial'
+      description_md: 'Training: 16S rRNA Sequencing With Mothur: Main Tutorial'
+      button_link: https://usegalaxy.eu/published/workflow?id=c67d2e75eeb4fd19
+    - title_md: ' Cloud-Aerosole MT-MG Functional Profiling'
+      description_md: ' Cloud-Aerosole MT-MG Functional Profiling'
+      button_link: https://usegalaxy.eu/published/workflow?id=4566262dd0acc8ab
+    - title_md: Cloud-Aerosole MT-MG Reference Gene Catalog Building
+      description_md: Cloud-Aerosole MT-MG Reference Gene Catalog Building
+      button_link: https://usegalaxy.eu/published/workflow?id=9b9e1e28f3683f92
+    - title_md: Cloud-Aerosole MT-MG Pre-Processing
+      description_md: Cloud-Aerosole MT-MG Pre-Processing
+      button_link: https://usegalaxy.eu/published/workflow?id=bb604ff5e010e7ab
+    - title_md: Cloud Aerosol MT-MG Contamination Filtering
+      description_md: Cloud Aerosol MT-MG Contamination Filtering
+      button_link: https://usegalaxy.eu/published/workflow?id=bdc7cfaac0db2eab
+    - title_md: Cloud-Aerosole MT-MG Taxonomic Profiling
+      description_md: Cloud-Aerosole MT-MG Taxonomic Profiling
+      button_link: https://usegalaxy.eu/published/workflow?id=e69b555faa6bb962
+
 
   - id: tutorials
     title: Tutorials
     heading_md: >
-       
-    content: []
 
-  - id: pathways
-    title: Learning pathways
-    heading_md: >
-       Connected tutorials to train you to perform microbial data analysis fast!.
     content:
-      - title_md: Introduction to Galaxy and Sequence analysis
-        description_md: >
-          New to Galaxy and/or the field of genomics? In this learing pathway, you will learn how to use Galaxy for analysis, and will be guided through the most common first steps of any genome analysis; quality control and a mapping or assembly of your genomic sequences.
-        button_link: 
-      - title_md: Metagenomics data processing and analysis for microbiome
-        description_md: >
-          
-        button_link: 
-      - title_md: Clinical metaproteomics workflows within Galaxy
-        description_md: >
-          
-        button_link: 
-
-  - id: faq
-    title: FAQ
-    heading_md: >
-       
-    content: []
+    - title_md: Analyses of metagenomics data - The global picture
+      description_md: Analyses of metagenomics data - The global picture
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/general-tutorial/tutorial.html
+    - title_md: Metatranscriptomics analysis using microbiome RNA-seq data
+      description_md: Metatranscriptomics analysis using microbiome RNA-seq data
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/metatranscriptomics/tutorial.html
+    - title_md: Pathogen detection from (direct Nanopore) sequencing data using Galaxy
+        - Foodborne Edition
+      description_md: Pathogen detection from (direct Nanopore) sequencing data using
+        Galaxy - Foodborne Edition
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/pathogen-detection-from-nanopore-foodborne-data/tutorial.html
+    - title_md: Metatranscriptomics analysis using microbiome RNA-seq data (short)
+      description_md: Metatranscriptomics analysis using microbiome RNA-seq data (short)
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/metatranscriptomics-short/tutorial.html
+    - title_md: Taxonomic Profiling and Visualization of Metagenomic Data
+      description_md: Taxonomic Profiling and Visualization of Metagenomic Data
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/taxonomic-profiling/tutorial.html
+    - title_md: Assembly of metagenomic sequencing data
+      description_md: Assembly of metagenomic sequencing data
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/metagenomics-assembly/tutorial.html
+    - title_md: Antibiotic resistance detection
+      description_md: Antibiotic resistance detection
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html
+    - title_md: Building an amplicon sequence variant (ASV) table from 16S data using
+        DADA2
+      description_md: Building an amplicon sequence variant (ASV) table from 16S data
+        using DADA2
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/dada-16S/tutorial.html
+    - title_md: 16S Microbial analysis with Nanopore data
+      description_md: 16S Microbial analysis with Nanopore data
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html
+    - title_md: Identification of the micro-organisms in a beer using Nanopore sequencing
+      description_md: Identification of the micro-organisms in a beer using Nanopore sequencing
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/beer-data-analysis/tutorial.html
+    - title_md: QIIME 2 Moving Pictures
+      description_md: QIIME 2 Moving Pictures
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/qiime2-moving-pictures/tutorial.html
+    - title_md: Binning of metagenomic sequencing data
+      description_md: Binning of metagenomic sequencing data
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/metagenomics-binning/tutorial.html
+    - title_md: QIIME 2 Cancer Microbiome Intervention
+      description_md: QIIME 2 Cancer Microbiome Intervention
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/qiime2-cancer-microbiome-intervention/tutorial.html
+    - title_md: 16S Microbial Analysis with mothur (extended)
+      description_md: 16S Microbial Analysis with mothur (extended)
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/mothur-miseq-sop/tutorial.html
+    - title_md: 16S Microbial Analysis with mothur (short)
+      description_md: 16S Microbial Analysis with mothur (short)
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/mothur-miseq-sop-short/tutorial.html
+    - title_md: 16S Microbial analysis with Nanopore data
+      description_md: 16S Microbial analysis with Nanopore data
+      button_link: 
+        https://training.galaxyproject.org//topics/microbiome/tutorials/nanopore-16S-metagenomics/tutorial.html
